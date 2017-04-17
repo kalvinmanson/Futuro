@@ -158,8 +158,8 @@
               <div class="submenu">
                 <div class="col-menu">
                   <ul>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-02.png" class="minicon"> Plantillas</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-03.png" class="minicon"> Dedos</a></li>
+                    <li><a href="#"><img src="/img/iconos/iconos-01-48.png" class="minicon"> Plantillas</a></li>
+                    <li><a href="#"><img src="/img/iconos/iconos-01-49.png" class="minicon"> Dedos</a></li>
                     <li><a href="#"><img src="/img/iconos/iconos-01-10.png" class="minicon"> Cuidado de la Espalda</a></li>
                   </ul>
                 </div>

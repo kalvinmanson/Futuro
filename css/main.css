@@ -257,7 +257,7 @@ header .menuprin .nav li .submenu .col-menu::before {
   color: #00158A;
   position: absolute;
   text-align: center;
-  padding: 10% 0; }
+  padding: 2% 0; }
   @media (max-width: 991px) {
     header .menuprin .nav li .submenu .col-menu::before {
       display: none; } }
