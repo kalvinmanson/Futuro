@@ -184,7 +184,7 @@ header .menuprin .nav li a {
     header .menuprin .nav li a {
       font-size: 1.3em; } }
 
-header .menuprin .nav li:hover a {
+header .menuprin .nav li:hover a, header .menuprin .nav li a:focus {
   background-color: #0185C6;
   -webkit-border-top-left-radius: 10px;
   -webkit-border-top-right-radius: 10px;
