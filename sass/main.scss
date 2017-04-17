@@ -367,6 +367,7 @@ header .menuprin .nav li .submenu .col-menu ul li a .minicon {
 footer .logo-list {
 	display: block;
 	border: 1px solid $color8;
+	padding: 5px 30px;
 	@include border-radius(5px);
 }
 footer .noarbg { 
