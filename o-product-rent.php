@@ -39,9 +39,7 @@
 		<div class="col-sm-7">
             <ul class="productTabs">
                 <li class="active"><a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab" class="btn btn-primary badge1">Descripción</a></li>
-                <li><a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab" class="btn btn-primary badge1">Beneficiós</a></li>
                 <li><a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab" class="btn btn-primary badge1">Especificaciones</a></li>
-                <li><a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab" class="btn btn-primary badge1">Modo de uso</a></li>
             </ul>
             <!-- Tab panes -->
             <div class="tab-content">
@@ -58,16 +56,6 @@
                         <span><i class="fa fa-circle"></i> <i class="fa fa-circle-o"></i> <i class="fa fa-circle-o"></i></span>
                         <div class="clearfix"></div>
                     </p>
-                </div>
-                <div role="tabpanel" class="tab-pane" id="tab2">
-                    <!-- Tab beneficios -->
-                    <p align="right">orem ipsum dolor sit amet, consectetur adipiscing elit, Ut enim ad minim veniam Loremipsum 
-                    dolor sit amet, consectetur adipiscing elit. dolor sit amet, consectetur adipiscing elit, Ut enim ad 
-minim veniam Loremipsum dolor sit amet, consectetur adipiscing elit.<br />
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, Ut enim ad minim veniam Loremipsum
-dolor sit amet, consectetur adipiscing elit. dolor sit amet, consectetur adipiscing elit.</p>
-                    <p align="right">dolor sit amet, consectetur adipiscing elit. dolor sit amet, consectetur adipiscing elit, Ut enim ad 
-minim veniam Loremipsum dolor sit amet, consectetur adipiscing elit. </p>
                 </div>
                 <div role="tabpanel" class="tab-pane" id="tab3">
                 <!-- Tab Especificaciones -->
@@ -90,32 +78,27 @@ minim veniam Loremipsum dolor sit amet, consectetur adipiscing elit. </p>
                         </div>
                     </div>
                 </div>
-                <div role="tabpanel" class="tab-pane" id="tab4">
-                    <!-- tab modos de uso -->
-                    <table>
-                      <tr>
-                        <td width="200"><img src="/img/usos-01.jpg" class="img-responsive"></td>
-                        <td><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Ut enim ad minim veniam. </p></td>
-                      </tr> 
-                      <tr>
-                        <td><img src="/img/usos-02.jpg" class="img-responsive"></td>
-                        <td><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Ut enim ad minim veniam. </p></td>
-                      </tr> 
-                      <tr>
-                        <td><img src="/img/usos-02.jpg" class="img-responsive"></td>
-                        <td><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Ut enim ad minim veniam. </p></td>
-                      </tr>  
-                    </table>
-                    <p align="right">
-                        <a href="#" class="btn btn-primary badge1">Descargar</a> 
-                    </p>
-                </div>
             </div>
 
-    		<p align="right">
-    			<a href="/?o=cart" class="btn btn-primary badge1">Incluir en la Lista de Deseos</a> 
-    		</p>
-    		<form class="formCarro" method="POST" action="/?o=cart">
+    		<form class="formCarro" method="POST" action="/?o=rent-form">
+                <div class="row">
+                    <div class="col-xs-9 col-xs-offset-3">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div class="form-group">
+                                    <label>Desde</label>
+                                    <input type="date" name="" class="form-control input-lg">
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="form-group">
+                                    <label>Hasta</label>
+                                    <input type="date" name="" class="form-control input-lg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 	    		<div class="row">
 	    			<div class="col-xs-3">
 	    				<span class="cantidad">Cantidad</span>
@@ -127,6 +110,9 @@ minim veniam Loremipsum dolor sit amet, consectetur adipiscing elit. </p>
 	    					<strong>$125.000</strong>
 	    					<small>Vr. Und.</small>
 	    				</div>
+                        <p align="right">
+                            <a href="/?o=rent-form" class="btn btn-primary btn-lg">Reservar</a>
+                        </p>
 	    			</div>
 	    		</div>
 	    	</form>
@@ -138,7 +124,7 @@ minim veniam Loremipsum dolor sit amet, consectetur adipiscing elit. </p>
 </div>
 <div class="products trianglebg2">
     <div class="row">
-        <div class="col-sm-3 col-xs-6">
+        <div class="col-sm-4 col-xs-6">
             <a href="/?o=product" class="product">
                 <div class="discount">
                     <span>Descuento <strong>20%</strong></span>
@@ -168,7 +154,7 @@ minim veniam Loremipsum dolor sit amet, consectetur adipiscing elit. </p>
                 </div>
             </a>
         </div>
-        <div class="col-sm-3 col-xs-6">
+        <div class="col-sm-4 col-xs-6">
             <a href="/?o=product" class="product">
                 <img src="/img/pro01.jpg" class="img-responsive">
                 <div class="infoRelated">
@@ -195,37 +181,7 @@ minim veniam Loremipsum dolor sit amet, consectetur adipiscing elit. </p>
                 </div>
             </a>
         </div>
-        <div class="col-sm-3 col-xs-6">
-            <a href="/?o=product" class="product">
-                <div class="discount">
-                    <span>Descuento <strong>20%</strong></span>
-                </div>
-                <img src="/img/pro01.jpg" class="img-responsive">
-                <div class="infoRelated">
-                    <h3>Cuello Ortopedico Adulto lifting</h3>
-                    <div class="datos">
-                        <p>
-                            <spna>Precio:</spna>
-                            <strong>$135.000</strong>
-                        </p>
-                        <p>
-                            <spna>Descuento:</spna>
-                            <strong>10%</strong>
-                        </p>
-                        <p>
-                            <spna>Dimensiones:</spna>
-                            20 x 08 x 12cm
-                        </p>
-                    </div>
-                    <div class="minipan" style="max-width: 180px;">
-                        <strong>Calificación</strong>
-                        <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i>
-                    </div>
-                    <span class="alCarro"><i class="fa fa-shopping-cart"></i> Añadir al carrito</span>
-                </div>
-            </a>
-        </div>
-        <div class="col-sm-3 col-xs-6">
+        <div class="col-sm-4 hidden-xs">
             <a href="/?o=product" class="product">
                 <div class="discount">
                     <span>Descuento <strong>20%</strong></span>

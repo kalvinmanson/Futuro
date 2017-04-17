@@ -6,7 +6,7 @@
 <div class="products">
 	<div class="row">
 		<div class="col-sm-3 col-xs-6">
-			<a href="#" class="product">
+			<a href="/?o=product" class="product">
 				<div class="discount">
 					<span>Descuento <strong>20%</strong></span>
 				</div>
@@ -21,7 +21,7 @@
 			</div>
 		</div>
 		<div class="col-sm-3 col-xs-6">
-			<a href="#" class="product">
+			<a href="/?o=product" class="product">
 				<div class="discount">
 					<span>Descuento <strong>20%</strong></span>
 				</div>
@@ -36,7 +36,7 @@
 			</div>
 		</div>
 		<div class="col-sm-3 col-xs-6">
-			<a href="#" class="product">
+			<a href="/?o=product" class="product">
 				<div class="discount">
 					<span>Descuento <strong>20%</strong></span>
 				</div>
@@ -51,7 +51,7 @@
 			</div>
 		</div>
 		<div class="col-sm-3 col-xs-6">
-			<a href="#" class="product">
+			<a href="/?o=product" class="product">
 				<div class="discount">
 					<span>Descuento <strong>20%</strong></span>
 				</div>
@@ -71,7 +71,7 @@
 <div class="products">
 	<div class="row">
 		<div class="col-sm-3 col-xs-6">
-			<a href="#" class="product">
+			<a href="/?o=product" class="product">
 				<div class="discount">
 					<span>Descuento <strong>20%</strong></span>
 				</div>
@@ -86,7 +86,7 @@
 			</div>
 		</div>
 		<div class="col-sm-3 col-xs-6">
-			<a href="#" class="product">
+			<a href="/?o=product" class="product">
 				<div class="discount">
 					<span>Descuento <strong>20%</strong></span>
 				</div>
@@ -101,7 +101,7 @@
 			</div>
 		</div>
 		<div class="col-sm-3 col-xs-6">
-			<a href="#" class="product">
+			<a href="/?o=product" class="product">
 				<div class="discount">
 					<span>Descuento <strong>20%</strong></span>
 				</div>
@@ -116,7 +116,7 @@
 			</div>
 		</div>
 		<div class="col-sm-3 col-xs-6">
-			<a href="#" class="product">
+			<a href="/?o=product" class="product">
 				<div class="discount">
 					<span>Descuento <strong>20%</strong></span>
 				</div>

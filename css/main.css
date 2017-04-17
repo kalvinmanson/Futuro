@@ -85,6 +85,51 @@ header .first-nav li a {
   color: #FFFFFF;
   font-size: 0.9em; }
 
+header .first-nav li:hover a {
+  background-color: #00158A; }
+
+header .first-nav li ul {
+  display: none; }
+
+header .first-nav li:hover ul {
+  display: block;
+  position: absolute;
+  background-color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+  background: #d2d2d2;
+  background: -moz-linear-gradient(top, #d2d2d2 0%, white 100%);
+  background: -webkit-linear-gradient(top, #d2d2d2 0%, white 100%);
+  background: linear-gradient(to bottom, #d2d2d2 0%, white 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2d2d2', endColorstr='#ffffff',GradientType=0 );
+  z-index: 4; }
+
+header .first-nav li:hover ul li {
+  display: block;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease; }
+
+header .first-nav li:hover ul li a {
+  display: block;
+  padding: 5px 15px;
+  margin-left: 15px;
+  background-color: transparent;
+  color: #595959;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease; }
+
+header .first-nav li:hover ul li a:hover {
+  background-color: #0185C6;
+  color: #FFFFFF; }
+
 header h3 {
   color: #00158A;
   text-align: right;
@@ -313,19 +358,6 @@ header .menuprin .nav li .submenu .col-menu ul li a .minicon {
   margin-right: 7px; }
 
 footer .logo-list {
-  list-style: none;
-  display: block;
-  margin: 0 30px;
-  padding: 0; }
-
-footer .logo-list li {
-  display: inline-block;
-  width: 14.2%;
-  margin-left: -4px;
-  padding: 15px;
-  text-align: center; }
-
-footer .logo-list li a {
   display: block;
   border: 1px solid #9FCFFF;
   -webkit-border-radius: 5px;

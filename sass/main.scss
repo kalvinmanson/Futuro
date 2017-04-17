@@ -118,6 +118,43 @@ header .first-nav li a {
 	color: $color6;
 	font-size: 0.9em;
 }
+header .first-nav li:hover a {
+	background-color: $color1;
+}
+header .first-nav li ul {
+	display: none;
+}
+header .first-nav li:hover ul {
+	display: block;
+	position: absolute;
+	background-color: $color6;
+	padding: 0;
+	margin: 0;
+	@include mix-gradient();
+	z-index: 4;
+}
+header .first-nav li:hover ul li {
+	display: block;
+	@include transition(0.5s);
+}
+header .first-nav li:hover ul li a {
+	display: block;
+	padding: 5px 15px;
+	margin-left: 15px;
+	background-color: transparent;
+	color: $color5;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	@include transition(0.5s);
+}
+header .first-nav li:hover ul li a:hover {
+	background-color: $color2;
+	color: $color6;
+}
 header h3 {
 	color: $color1;
 	text-align: right;
@@ -328,19 +365,6 @@ header .menuprin .nav li .submenu .col-menu ul li a .minicon {
 	margin-right: 7px;
 }
 footer .logo-list {
-	list-style: none;
-	display: block;
-	margin: 0 30px;
-	padding: 0;
-}
-footer .logo-list li {
-	display: inline-block;
-	width: 14.2%;
-	margin-left:-4px;
-	padding: 15px;
-	text-align: center;
-}
-footer .logo-list li a {
 	display: block;
 	border: 1px solid $color8;
 	@include border-radius(5px);

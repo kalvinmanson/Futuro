@@ -37,7 +37,7 @@
 <div class="products">
     <div class="row">
         <div class="col-sm-4">
-            <a href="/?o=product" class="product">
+            <a href="/?o=product-rent" class="product">
                 <div class="discount">
                     <span>Descuento <strong>20%</strong></span>
                 </div>
@@ -52,7 +52,7 @@
             </div>
         </div>
         <div class="col-sm-4">
-            <a href="/?o=product" class="product">
+            <a href="/?o=product-rent" class="product">
                 <div class="discount">
                     <span>Descuento <strong>20%</strong></span>
                 </div>
@@ -67,56 +67,7 @@
             </div>
         </div>
         <div class="col-sm-4">
-            <a href="/?o=product" class="product">
-                <div class="discount">
-                    <span>Descuento <strong>20%</strong></span>
-                </div>
-                <img src="/img/pro01.jpg" class="img-responsive">
-                <div class="price">
-                    Antes $ 68.585<br />
-                    <span>Ahora <strong>$ 48.585</strong></span>
-                </div>
-            </a>
-            <div class="productFooter">
-                Aloevida AV:<br />Kit de limpieza facial<br />Ref 0247
-            </div>
-        </div>
-    </div>
-    <!-- row productos -->
-    <p>&nbsp;</p>
-    <div class="row">
-        <div class="col-sm-4">
-            <a href="/?o=product" class="product">
-                <div class="discount">
-                    <span>Descuento <strong>20%</strong></span>
-                </div>
-                <img src="/img/pro01.jpg" class="img-responsive">
-                <div class="price">
-                    Antes $ 68.585<br />
-                    <span>Ahora <strong>$ 48.585</strong></span>
-                </div>
-            </a>
-            <div class="productFooter">
-                Aloevida AV:<br />Kit de limpieza facial<br />Ref 0247
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <a href="/?o=product" class="product">
-                <div class="discount">
-                    <span>Descuento <strong>20%</strong></span>
-                </div>
-                <img src="/img/pro01.jpg" class="img-responsive">
-                <div class="price">
-                    Antes $ 68.585<br />
-                    <span>Ahora <strong>$ 48.585</strong></span>
-                </div>
-            </a>
-            <div class="productFooter">
-                Aloevida AV:<br />Kit de limpieza facial<br />Ref 0247
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <a href="/?o=product" class="product">
+            <a href="/?o=product-rent" class="product">
                 <div class="discount">
                     <span>Descuento <strong>20%</strong></span>
                 </div>
@@ -135,7 +86,7 @@
     <p>&nbsp;</p>
     <div class="row">
         <div class="col-sm-4">
-            <a href="/?o=product" class="product">
+            <a href="/?o=product-rent" class="product">
                 <div class="discount">
                     <span>Descuento <strong>20%</strong></span>
                 </div>
@@ -150,7 +101,7 @@
             </div>
         </div>
         <div class="col-sm-4">
-            <a href="/?o=product" class="product">
+            <a href="/?o=product-rent" class="product">
                 <div class="discount">
                     <span>Descuento <strong>20%</strong></span>
                 </div>
@@ -165,7 +116,7 @@
             </div>
         </div>
         <div class="col-sm-4">
-            <a href="/?o=product" class="product">
+            <a href="/?o=product-rent" class="product">
                 <div class="discount">
                     <span>Descuento <strong>20%</strong></span>
                 </div>
@@ -184,7 +135,7 @@
     <p>&nbsp;</p>
     <div class="row">
         <div class="col-sm-4">
-            <a href="/?o=product" class="product">
+            <a href="/?o=product-rent" class="product">
                 <div class="discount">
                     <span>Descuento <strong>20%</strong></span>
                 </div>
@@ -199,7 +150,7 @@
             </div>
         </div>
         <div class="col-sm-4">
-            <a href="/?o=product" class="product">
+            <a href="/?o=product-rent" class="product">
                 <div class="discount">
                     <span>Descuento <strong>20%</strong></span>
                 </div>
@@ -214,7 +165,56 @@
             </div>
         </div>
         <div class="col-sm-4">
-            <a href="/?o=product" class="product">
+            <a href="/?o=product-rent" class="product">
+                <div class="discount">
+                    <span>Descuento <strong>20%</strong></span>
+                </div>
+                <img src="/img/pro01.jpg" class="img-responsive">
+                <div class="price">
+                    Antes $ 68.585<br />
+                    <span>Ahora <strong>$ 48.585</strong></span>
+                </div>
+            </a>
+            <div class="productFooter">
+                Aloevida AV:<br />Kit de limpieza facial<br />Ref 0247
+            </div>
+        </div>
+    </div>
+    <!-- row productos -->
+    <p>&nbsp;</p>
+    <div class="row">
+        <div class="col-sm-4">
+            <a href="/?o=product-rent" class="product">
+                <div class="discount">
+                    <span>Descuento <strong>20%</strong></span>
+                </div>
+                <img src="/img/pro01.jpg" class="img-responsive">
+                <div class="price">
+                    Antes $ 68.585<br />
+                    <span>Ahora <strong>$ 48.585</strong></span>
+                </div>
+            </a>
+            <div class="productFooter">
+                Aloevida AV:<br />Kit de limpieza facial<br />Ref 0247
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <a href="/?o=product-rent" class="product">
+                <div class="discount">
+                    <span>Descuento <strong>20%</strong></span>
+                </div>
+                <img src="/img/pro01.jpg" class="img-responsive">
+                <div class="price">
+                    Antes $ 68.585<br />
+                    <span>Ahora <strong>$ 48.585</strong></span>
+                </div>
+            </a>
+            <div class="productFooter">
+                Aloevida AV:<br />Kit de limpieza facial<br />Ref 0247
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <a href="/?o=product-rent" class="product">
                 <div class="discount">
                     <span>Descuento <strong>20%</strong></span>
                 </div>

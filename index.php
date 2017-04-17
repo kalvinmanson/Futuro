@@ -33,22 +33,38 @@
           </div>
           <div class="col-sm-7">
             <ul class="first-nav">
-              <li><a href="#">Nosotros</a></li>
-              <li><a href="#">Preguntas Frecuentes</a></li>
-              <li><a href="#">Tiendas</a></li>
-              <li><a href="#">Contactenos</a></li>
-              <li><a href="#">Empleados</a></li>
+              <li>
+                <a href="/?o=inner">Nosotros</a>
+                <ul>
+                  <li><a href="/?o=inner">Misión</a></li>
+                  <li><a href="/?o=inner">Visión</a></li>
+                  <li><a href="/?o=inner">Historia</a></li>
+                </ul>
+              </li>
+              <li><a href="/?o=inner">Preguntas Frecuentes</a></li>
+              <li>
+                <a href="/?o=inner">Tiendas</a>
+                <ul>
+                  <li><a href="/?o=inner">Bogotá</a></li>
+                  <li><a href="/?o=inner">Medellín</a></li>
+                  <li><a href="/?o=inner">Cali</a></li>
+                  <li><a href="/?o=inner">Barranquilla</a></li>
+                </ul>
+              </li>
+              <li><a href="/?o=contact">Contactenos</a></li>
+              <li><a href="/?o=inner">Empleados</a></li>
             </ul>
             <div class="blockUser">
               <div class="row">
                 <div class="col-sm-7">
                   <h3>Consulta online: 8:00 a.m. - 5:00 p.m.<br />
                   <img src="/img/icons/phone.png"> 635 5192</h3>
-                  <form method="get" action="">
+                  <form method="GET" action="/">
+                    <input type="hidden" name="o" value="store">
                     <div class="input-group">
                       <input type="text" class="form-control" placeholder="Search for...">
                       <span class="input-group-btn">
-                        <button class="btn btn-primary" type="button">Buscar</button>
+                        <button class="btn btn-primary" type="submit">Buscar</button>
                       </span>
                     </div><!-- /input-group -->
                   </form>
@@ -56,8 +72,8 @@
                 <div class="col-sm-5">
                   <div class="infotop">
                     <div class="nombre">@NOMBRE</div>
-                    <a href="#" class="btn btn-primary badge1">Mi cuenta</a> 
-                    <a href="#" class="btn btn-primary badge1">Iniciar Sesión</a>
+                    <a href="/?o=account" class="btn btn-primary badge1">Mi cuenta</a> 
+                    <a href="/?o=login" class="btn btn-primary badge1">Iniciar Sesión</a>
                     <div class="price">
                       <span class="cr1"><img src="/img/icons/shop.png"></span>
                       <span class="cr2"><strong>#02</strong></span>
@@ -78,10 +94,10 @@
               <div class="submenu">
                 <div class="col-menu">
                   <ul>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-02.png" class="minicon"> Camas y Accesorios</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-03.png" class="minicon"> Sillas y Transporte</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-04.png" class="minicon"> Seguridad en el baño</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-05.png" class="minicon"> Diagnostico Incontinencia</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-02.png" class="minicon"> Camas y Accesorios</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-03.png" class="minicon"> Sillas y Transporte</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-04.png" class="minicon"> Seguridad en el baño</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-05.png" class="minicon"> Diagnostico Incontinencia</a></li>
                   </ul>
                 </div>
               </div>
@@ -91,13 +107,13 @@
               <div class="submenu">
                 <div class="col-menu">
                   <ul>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-07.png" class="minicon"> Cuidado del Cuello</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-08.png" class="minicon"> Extremidades Superiores</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-09.png" class="minicon"> Extremidades inferiores</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-10.png" class="minicon"> Cuidado de Espalda</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-15.png" class="minicon"> Equipos de fisioterapia</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-16.png" class="minicon"> Linea Infantil</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-05.png" class="minicon"> Diagnostico Incontinencia</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-07.png" class="minicon"> Cuidado del Cuello</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-08.png" class="minicon"> Extremidades Superiores</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-09.png" class="minicon"> Extremidades inferiores</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-10.png" class="minicon"> Cuidado de Espalda</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-15.png" class="minicon"> Equipos de fisioterapia</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-16.png" class="minicon"> Linea Infantil</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-05.png" class="minicon"> Diagnostico Incontinencia</a></li>
                   </ul>
                 </div>
               </div>
@@ -107,13 +123,13 @@
               <div class="submenu">
                 <div class="col-menu">
                   <ul>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-18.png" class="minicon"> Compresion Baja 8-15 MMHG</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-19.png" class="minicon"> Compresion Media 15-20 MMHG</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-20.png" class="minicon"> Compresion Firme 20-30 MMHG</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-21.png" class="minicon"> Compresion Extra-Firme 30-40 MMHG</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-24.png" class="minicon"> Media Antiembolicas 15-20 MMHG</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-25.png" class="minicon"> Linea Deportiva</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-26.png" class="minicon"> Linea Casual</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-18.png" class="minicon"> Compresion Baja 8-15 MMHG</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-19.png" class="minicon"> Compresion Media 15-20 MMHG</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-20.png" class="minicon"> Compresion Firme 20-30 MMHG</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-21.png" class="minicon"> Compresion Extra-Firme 30-40 MMHG</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-24.png" class="minicon"> Media Antiembolicas 15-20 MMHG</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-25.png" class="minicon"> Linea Deportiva</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-26.png" class="minicon"> Linea Casual</a></li>
                   </ul>
                 </div>
               </div>
@@ -123,7 +139,7 @@
               <div class="submenu">
                 <div class="col-menu">
                   <ul>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-06.png" class="minicon"> Glucometria</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-06.png" class="minicon"> Glucometria</a></li>
                   </ul>
                 </div>
               </div>
@@ -133,11 +149,11 @@
               <div class="submenu">
                 <div class="col-menu">
                   <ul>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-11.png" class="minicon"> Estetoscopios</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-12.png" class="minicon"> Esfigmomanometro</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-13.png" class="minicon"> Equipo de Diagnostico</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-14.png" class="minicon"> Monitoreo</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-17.png" class="minicon"> Instrumental</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-11.png" class="minicon"> Estetoscopios</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-12.png" class="minicon"> Esfigmomanometro</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-13.png" class="minicon"> Equipo de Diagnostico</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-14.png" class="minicon"> Monitoreo</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-17.png" class="minicon"> Instrumental</a></li>
                   </ul>
                 </div>
               </div>
@@ -147,8 +163,8 @@
               <div class="submenu">
                 <div class="col-menu">
                   <ul>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-22.png" class="minicon"> Proteccion Esteril</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-23.png" class="minicon"> Irritación y Heridas</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-22.png" class="minicon"> Proteccion Esteril</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-23.png" class="minicon"> Irritación y Heridas</a></li>
                   </ul>
                 </div>
               </div>
@@ -158,9 +174,9 @@
               <div class="submenu">
                 <div class="col-menu">
                   <ul>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-48.png" class="minicon"> Plantillas</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-49.png" class="minicon"> Dedos</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-10.png" class="minicon"> Cuidado de la Espalda</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-48.png" class="minicon"> Plantillas</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-49.png" class="minicon"> Dedos</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-10.png" class="minicon"> Cuidado de la Espalda</a></li>
                   </ul>
                 </div>
               </div>
@@ -170,13 +186,13 @@
               <div class="submenu nega1">
                 <div class="col-menu">
                   <ul>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-27.png" class="minicon"> Aspiradoras y Succionadores</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-28.png" class="minicon"> Cilindros de Oxigeno</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-29.png" class="minicon"> Concentradores</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-30.png" class="minicon"> Humidificadores</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-31.png" class="minicon"> Nebulizadores</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-32.png" class="minicon"> Maquinas CPAP</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-33.png" class="minicon"> Vaporizadores</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-27.png" class="minicon"> Aspiradoras y Succionadores</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-28.png" class="minicon"> Cilindros de Oxigeno</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-29.png" class="minicon"> Concentradores</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-30.png" class="minicon"> Humidificadores</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-31.png" class="minicon"> Nebulizadores</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-32.png" class="minicon"> Maquinas CPAP</a></li>
+                    <li><a href="/?o=cats"><img src="/img/iconos/iconos-01-33.png" class="minicon"> Vaporizadores</a></li>
                   </ul>
                 </div>
               </div>
@@ -186,9 +202,9 @@
               <div class="submenu nega2">
                 <div class="col-menu">
                   <ul>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-02.png" class="minicon"> Camas y Accesorios</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-03.png" class="minicon"> Movilidad y Transporte</a></li>
-                    <li><a href="#"><img src="/img/iconos/iconos-01-13.png" class="minicon"> Equipo de Diagnostico</a></li>
+                    <li><a href="/?o=rent"><img src="/img/iconos/iconos-01-02.png" class="minicon"> Camas y Accesorios</a></li>
+                    <li><a href="/?o=rent"><img src="/img/iconos/iconos-01-03.png" class="minicon"> Movilidad y Transporte</a></li>
+                    <li><a href="/?o=ren"><img src="/img/iconos/iconos-01-13.png" class="minicon"> Equipo de Diagnostico</a></li>
                   </ul>
                 </div>
               </div>
@@ -213,16 +229,16 @@
 
     <!-- Slick Carousel -->
     <div class="brands">
-      <div><a href="#"><img src="/img/foot-logo.jpg" class="img-responsive"></a></div>
-      <div><a href="#"><img src="/img/foot-logo.jpg" class="img-responsive"></a></div>
-      <div><a href="#"><img src="/img/foot-logo.jpg" class="img-responsive"></a></div>
-      <div><a href="#"><img src="/img/foot-logo.jpg" class="img-responsive"></a></div>
-      <div><a href="#"><img src="/img/foot-logo.jpg" class="img-responsive"></a></div>
-      <div><a href="#"><img src="/img/foot-logo.jpg" class="img-responsive"></a></div>
-      <div><a href="#"><img src="/img/foot-logo.jpg" class="img-responsive"></a></div>
-      <div><a href="#"><img src="/img/foot-logo.jpg" class="img-responsive"></a></div>
-      <div><a href="#"><img src="/img/foot-logo.jpg" class="img-responsive"></a></div>
-      <div><a href="#"><img src="/img/foot-logo.jpg" class="img-responsive"></a></div>
+      <div><a href="#"><img src="/img/foot-logo.jpg" class="img-responsive logo-list"></a></div>
+      <div><a href="#"><img src="/img/foot-logo.jpg" class="img-responsive logo-list"></a></div>
+      <div><a href="#"><img src="/img/foot-logo.jpg" class="img-responsive logo-list"></a></div>
+      <div><a href="#"><img src="/img/foot-logo.jpg" class="img-responsive logo-list"></a></div>
+      <div><a href="#"><img src="/img/foot-logo.jpg" class="img-responsive logo-list"></a></div>
+      <div><a href="#"><img src="/img/foot-logo.jpg" class="img-responsive logo-list"></a></div>
+      <div><a href="#"><img src="/img/foot-logo.jpg" class="img-responsive logo-list"></a></div>
+      <div><a href="#"><img src="/img/foot-logo.jpg" class="img-responsive logo-list"></a></div>
+      <div><a href="#"><img src="/img/foot-logo.jpg" class="img-responsive logo-list"></a></div>
+      <div><a href="#"><img src="/img/foot-logo.jpg" class="img-responsive logo-list"></a></div>
     </div>
       <!--/ Slick carouseñ-->
 
@@ -247,41 +263,41 @@
           <div class="col-sm-3">
             <h4>Acerca de Nosotros</h4>
             <ul>
-              <li><a href="#">Historia</a></li>
-              <li><a href="#">Misión</a></li>
-              <li><a href="#">Visión</a></li>
-              <li><a href="#">Sugerencias</a></li>
+              <li><a href="/?o=inner">Historia</a></li>
+              <li><a href="/?o=inner">Misión</a></li>
+              <li><a href="/?o=inner">Visión</a></li>
+              <li><a href="/?o=inner">Sugerencias</a></li>
             </ul>
           </div>
           <div class="col-sm-3">
             <h4>Centro de ayuda</h4>
             <ul>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Términos y condiciones</a></li>
-              <li><a href="#">Habeas Data</a></li>
-              <li><a href="#">Peticiones</a></li>
-              <li><a href="#">Quejas y Reclamos</a></li>
+              <li><a href="/?o=inner">FAQ</a></li>
+              <li><a href="/?o=inner">Términos y condiciones</a></li>
+              <li><a href="/?o=inner">Habeas Data</a></li>
+              <li><a href="/?o=inner">Peticiones</a></li>
+              <li><a href="/?o=inner">Quejas y Reclamos</a></li>
             </ul>
           </div>
           <div class="col-sm-3">
             <h4>Donde Estamos</h4>
             <ul>
-              <li><a href="#">Mapa de tiendas</a></li>
-              <li><a href="#">Cotnacto</a></li>
+              <li><a href="/?o=inner">Mapa de tiendas</a></li>
+              <li><a href="/?o=inner">Cotnacto</a></li>
             </ul>
             <h4>Micro Sites</h4>
             <ul>
-              <li><a href="#">No-Varix</a></li>
-              <li><a href="#">No-Varixx</a></li>
+              <li><a href="/?o=inner">No-Varix</a></li>
+              <li><a href="/?o=inner">No-Varixx</a></li>
             </ul>
           </div>
           <div class="col-sm-3">
             <h4>Nuestros Productos</h4>
             <ul>
-              <li><a href="#">Catalogo</a></li>
-              <li><a href="#">Pasarela de pagos</a></li>
-              <li><a href="#">Comparador</a></li>
-              <li><a href="#">Ficha tecnica</a></li>
+              <li><a href="/?o=inner">Catalogo</a></li>
+              <li><a href="/?o=inner">Pasarela de pagos</a></li>
+              <li><a href="/?o=inner">Comparador</a></li>
+              <li><a href="/?o=inner">Ficha tecnica</a></li>
             </ul>
           </div>
         </div>
