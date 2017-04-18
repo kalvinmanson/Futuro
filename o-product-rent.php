@@ -103,6 +103,7 @@
 	    			<div class="col-xs-3">
 	    				<span class="cantidad">Cantidad</span>
 	    				<input type="number" class="cantidadInput" min="1" value="1">
+                        <a href="/?o=contact">Contactarnos</a>
 	    			</div>
 	    			<div class="col-xs-9">
 	    				<span class="antes">Antes $ 152.000</span>

@@ -814,3 +814,118 @@ footer ul li a {
   color: #00158A;
   margin: 0;
   padding: 15px 0; }
+
+.disponible .map {
+  display: block;
+  position: relative; }
+
+.disponible .map .formuMap {
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 15px; }
+
+.disponible .map .formuMap label {
+  display: inline-block;
+  background-color: #00158A;
+  color: #FFFFFF;
+  padding: 5px 15px;
+  font-weight: lighter;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-bottom-left-radius: 10px; }
+
+.disponible .map .formuMap select {
+  display: inline-block;
+  background-color: #FFFFFF;
+  color: #595959;
+  padding: 5px 15px;
+  font-weight: lighter;
+  border: 1px solid #9FCFFF;
+  margin-left: -10px; }
+
+.disponible .punto {
+  display: block;
+  cursor: pointer;
+  color: #595959;
+  padding: 10px 0 10px 40px;
+  position: relative;
+  margin-bottom: 15px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease; }
+
+.disponible .punto span {
+  color: #F70200; }
+
+.disponible .punto p {
+  margin: 0;
+  padding: 0; }
+
+.disponible .punto:before {
+  font: normal normal normal 20px/1 FontAwesome;
+  content: "\f111";
+  color: #1ADBE5;
+  position: absolute;
+  left: 5%;
+  top: 37%; }
+
+.city h3 {
+  color: #00158A; }
+
+.disponible .punto:hover {
+  background-color: #0185C6;
+  color: #FFFFFF; }
+
+.city .mapList {
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+
+.city .mapList .place {
+  position: absolute;
+  display: block;
+  z-index: 20;
+  background-color: #FFFFFF;
+  height: 100%;
+  width: 35%;
+  left: -600px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease; }
+
+.city .mapList .place.active {
+  left: 0px; }
+
+.city .mapList .place h3 {
+  padding: 20px;
+  color: #595959; }
+
+/* 5 columns */
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 1px; }
+
+.col-xs-5ths {
+  width: 20%;
+  float: left; }
+
+@media (min-width: 768px) {
+  .col-sm-5ths {
+    width: 20%;
+    float: left; } }
+
+@media (min-width: 992px) {
+  .col-md-5ths {
+    width: 20%;
+    float: left; } }
+
+@media (min-width: 1200px) {
+  .col-lg-5ths {
+    width: 20%;
+    float: left; } }

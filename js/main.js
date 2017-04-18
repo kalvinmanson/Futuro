@@ -49,4 +49,13 @@ $(document).ready(function() {
 	    // instead of a settings object
 	  ]
 	});
+	$(".tr_disponible").click( function () {
+		$(".disponible").toggle("slow");
+	});
+	$(".tr_similares").click( function () {
+		$(".similares").toggle("slow");
+	});
+	$(".tr_punto").click( function () {
+		$(".place").toggleClass( "active" );
+	});
 });

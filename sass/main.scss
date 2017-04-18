@@ -9,6 +9,7 @@ $color6: #FFFFFF; // blanco
 $color7: #000000; // negro
 $color8: #9FCFFF; // azul hiper claro
 $color9: #E1E1E5; // casi blanco
+$color10: #1ADBE5; // Azul brillante
 
 /* MIXINS */
 @mixin border-radius($radius) {
@@ -788,4 +789,122 @@ footer ul li a {
 	color: $color1;
 	margin: 0;
 	padding: 15px 0;
+}
+.disponible .map {
+	display: block;
+	position: relative;
+}
+.disponible .map .formuMap {
+	display: block;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+.disponible .map .formuMap label {
+	display: inline-block;
+	background-color: $color1;
+	color: $color6;
+	padding: 5px 15px;
+	font-weight: lighter;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-left-radius: 10px;
+}
+.disponible .map .formuMap select {
+	display: inline-block;
+	background-color: $color6;
+	color: $color5;
+	padding: 5px 15px;
+	font-weight: lighter;
+	border:1px solid $color8;
+	margin-left: -10px;
+}
+.disponible .punto {
+	display: block;
+	cursor: pointer;
+	color: $color5;
+	padding: 10px 0 10px 40px;
+	position: relative;
+	margin-bottom: 15px;
+	@include transition(0.5s);
+}
+.disponible .punto span {
+	color: $color3;
+}
+.disponible .punto p {
+	margin: 0;
+	padding: 0;
+}
+.disponible .punto:before {
+	font: normal normal normal 20px/1 FontAwesome;
+	content: "\f111";
+	color: $color10;
+	position: absolute;
+	left: 5%;
+	top: 37%;
+}
+.city h3 {
+	color: $color1;
+}
+.disponible .punto:hover {
+	background-color: $color2;
+	color: $color6;
+}
+.city .mapList {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.city .mapList .place {
+	position: absolute;
+	display: block;
+	z-index: 20;
+	background-color: $color6;
+	height: 100%;
+	width: 35%;
+	left: -600px;
+	@include transition(0.5s);
+}
+.city .mapList .place.active {
+	left: 0px;
+}
+.city .mapList .place h3 {
+	padding: 20px;
+	color: $color5;
+}
+/* 5 columns */
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 1px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
 }

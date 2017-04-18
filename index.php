@@ -43,12 +43,12 @@
               </li>
               <li><a href="/?o=inner">Preguntas Frecuentes</a></li>
               <li>
-                <a href="/?o=inner">Tiendas</a>
+                <a href="#">Tiendas</a>
                 <ul>
-                  <li><a href="/?o=inner">Bogotá</a></li>
-                  <li><a href="/?o=inner">Medellín</a></li>
-                  <li><a href="/?o=inner">Cali</a></li>
-                  <li><a href="/?o=inner">Barranquilla</a></li>
+                  <li><a href="/?o=city">Bogotá</a></li>
+                  <li><a href="/?o=city">Medellín</a></li>
+                  <li><a href="/?o=city">Cali</a></li>
+                  <li><a href="/?o=city">Barranquilla</a></li>
                 </ul>
               </li>
               <li><a href="/?o=contact">Contactenos</a></li>
