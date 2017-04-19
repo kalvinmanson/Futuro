@@ -11,6 +11,7 @@
         </h4>
         
         <h3 class="right">Historial de compra</h3>
+        <div class="table-responsive">
         <table class="table table-hover table-prin">
             <tr>
                 <th>Acciones</th>
@@ -23,7 +24,7 @@
                 <th>Total</th>
             </tr>
             <tr>
-                <td><a href="#"><i class="fa fa-remove"></i></td>
+                <td><a href="#"><i class="fa fa-remove"></i></a></td>
                 <td><img src="assets/img/pro01.jpg" width="50"></td>
                 <td>FIST AID KIT WATERPROOF</td>
                 <td>1 UND.</td>
@@ -33,7 +34,7 @@
                 <td>$120.000</td>
             </tr>
             <tr>
-                <td><a href="#"><i class="fa fa-remove"></i></td>
+                <td><a href="#"><i class="fa fa-remove"></i></a></td>
                 <td><img src="assets/img/pro01.jpg" width="50"></td>
                 <td>FIST AID KIT WATERPROOF</td>
                 <td>1 UND.</td>
@@ -43,7 +44,7 @@
                 <td>$120.000</td>
             </tr>
             <tr>
-                <td><a href="#"><i class="fa fa-remove"></i></td>
+                <td><a href="#"><i class="fa fa-remove"></i></a></td>
                 <td><img src="assets/img/pro01.jpg" width="50"></td>
                 <td>FIST AID KIT WATERPROOF</td>
                 <td>1 UND.</td>
@@ -53,10 +54,13 @@
                 <td>$120.000</td>
             </tr>
         </table>
+        </div>
         <p align="right">
             <a href="#" class="btn btn-primary">Borrar Historial</a>
         </p>
         <h3 class="right">Lista de deseos</h3>
+
+        <div class="table-responsive">
         <table class="table table-hover table-prin">
             <tr>
                 <th>Acciones</th>
@@ -69,7 +73,7 @@
                 <th>Total</th>
             </tr>
             <tr>
-                <td><a href="#"><i class="fa fa-remove"></i></td>
+                <td><a href="#"><i class="fa fa-remove"></i></a></td>
                 <td><img src="assets/img/pro01.jpg" width="50"></td>
                 <td>FIST AID KIT WATERPROOF</td>
                 <td>1 UND.</td>
@@ -79,7 +83,7 @@
                 <td>$120.000</td>
             </tr>
             <tr>
-                <td><a href="#"><i class="fa fa-remove"></i></td>
+                <td><a href="#"><i class="fa fa-remove"></i></a></td>
                 <td><img src="assets/img/pro01.jpg" width="50"></td>
                 <td>FIST AID KIT WATERPROOF</td>
                 <td>1 UND.</td>
@@ -89,7 +93,7 @@
                 <td>$120.000</td>
             </tr>
             <tr>
-                <td><a href="#"><i class="fa fa-remove"></i></td>
+                <td><a href="#"><i class="fa fa-remove"></i></a></td>
                 <td><img src="assets/img/pro01.jpg" width="50"></td>
                 <td>FIST AID KIT WATERPROOF</td>
                 <td>1 UND.</td>
@@ -99,6 +103,7 @@
                 <td>$120.000</td>
             </tr>
         </table>
+        </div>
         <p align="right">
             <a href="#" class="btn btn-primary">Borrar Lista</a>
         </p>

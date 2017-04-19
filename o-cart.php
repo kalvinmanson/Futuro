@@ -6,6 +6,8 @@
     <div class="inside"><span>Carrito de compras</span></div>
 </div>
 <div class="cart trianglebg2">
+
+    <div class="table-responsive">
     <table class="table table-hover table-prin">
         <tr>
             <th>Acciones</th>
@@ -20,7 +22,7 @@
             <th>Total</th>
         </tr>
         <tr>
-            <td><a href="#"><i class="fa fa-remove"></i></td>
+            <td><a href="#"><i class="fa fa-remove"></i></a></td>
             <td><img src="assets/img/pro01.jpg" width="50"></td>
             <td>FIST AID KIT WATERPROOF</td>
             <td>1 UND.</td>
@@ -32,7 +34,7 @@
             <td>$120.000</td>
         </tr>
         <tr>
-            <td><a href="#"><i class="fa fa-remove"></i></td>
+            <td><a href="#"><i class="fa fa-remove"></i></a></td>
             <td><img src="assets/img/pro01.jpg" width="50"></td>
             <td>FIST AID KIT WATERPROOF</td>
             <td>1 UND.</td>
@@ -44,7 +46,7 @@
             <td>$120.000</td>
         </tr>
         <tr>
-            <td><a href="#"><i class="fa fa-remove"></i></td>
+            <td><a href="#"><i class="fa fa-remove"></i></a></td>
             <td><img src="assets/img/pro01.jpg" width="50"></td>
             <td>FIST AID KIT WATERPROOF</td>
             <td>1 UND.</td>
@@ -56,7 +58,7 @@
             <td>$120.000</td>
         </tr>
         <tr>
-            <td><a href="#"><i class="fa fa-remove"></i></td>
+            <td><a href="#"><i class="fa fa-remove"></i></a></td>
             <td><img src="assets/img/pro01.jpg" width="50"></td>
             <td>FIST AID KIT WATERPROOF</td>
             <td>1 UND.</td>
@@ -68,6 +70,7 @@
             <td>$120.000</td>
         </tr>
     </table>
+    </div>
     <div class="row">
         <div class="col-sm-4 col-sm-offset-8">
             <div class="payable">

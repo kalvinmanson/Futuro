@@ -790,6 +790,9 @@ footer ul li a {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top; }
+  @media (max-width: 991px) {
+    .inner {
+      padding: 23% 0 0 0; } }
 
 .greyPanel {
   background-color: #E1E1E5;
