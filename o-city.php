@@ -1,9 +1,15 @@
-<div class="bigline">
+<?php 
+    if(isset($inner)) {
+        $title = "Producto disponible en estos almacenes";
+    } else {
+        $title = "Nuestras Tiendas";
+    }
+?><div class="bigline">
 	<ul class="bradlinks">
-		<li><a href="/?o=store"><i class="fa fa-angle-right"></i> Deporte y Rehabilitación</a></li>
-		<li><a href="/?o=store"><i class="fa fa-angle-right"></i> Deporte</a></li>
+		<li><a href="?o=store"><i class="fa fa-angle-right"></i> Deporte y Rehabilitación</a></li>
+		<li><a href="?o=store"><i class="fa fa-angle-right"></i> Deporte</a></li>
 	</ul>
-    <div class="inside"><span>Nuestras Tiedas</span></div>
+    <div class="inside"><span><?php echo $title; ?></span></div>
 </div>
 <div class="city">
     <form>
@@ -17,8 +23,8 @@
     <p>&nbsp;</p>
 
     <div class="mapList">
-        <div class="place active">
-            <img src="/img/place.png" class="img-responsive">
+        <div class="place">
+            <img src="assets/img/place.png" class="img-responsive">
             <h3>El lago/ Oficina Principal<br />cra 14 # 79 71<br />tel 2181212</h3>
         </div>
         <div class="embed-responsive embed-responsive-16by9 bordered">
@@ -26,115 +32,113 @@
         </div>
     </div>
     <h3>Seleccióna la tienda deseada</h3>
-    <div class="disponible">
-        <div class="row">
-            <div class="col-sm-3">
-                <div class="punto bordered tr_punto">
-                    <p>El lago/ Oficina <span>Principal</span><br />
-                    cra 14 # 79 71<br />
-                    tel 2181212</p>
-                </div>
-                <div class="punto bordered tr_punto">
-                    <p>El lago/ Oficina<br />
-                    cra 14 # 79 71<br />
-                    tel 2181212</p>
-                </div>
-                <div class="punto bordered tr_punto">
-                    <p>El lago/ Oficina<br />
-                    cra 14 # 79 71<br />
-                    tel 2181212</p>
-                </div>
-                <div class="punto bordered tr_punto">
-                    <p>El lago/ Oficina <span>Nuevo</span><br />
-                    cra 14 # 79 71<br />
-                    tel 2181212</p>
-                </div>
-                <div class="punto bordered tr_punto">
-                    <p>El lago/ Oficina <span>Principal</span><br />
-                    cra 14 # 79 71<br />
-                    tel 2181212</p>
-                </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="punto bordered tr_punto">
+                <p>El lago/ Oficina <span>Principal</span><br />
+                cra 14 # 79 71<br />
+                tel 2181212</p>
             </div>
-            <div class="col-sm-3">
-                <div class="punto bordered tr_punto">
-                    <p>El lago/ Oficina <span>Principal</span><br />
-                    cra 14 # 79 71<br />
-                    tel 2181212</p>
-                </div>
-                <div class="punto bordered tr_punto">
-                    <p>El lago/ Oficina<br />
-                    cra 14 # 79 71<br />
-                    tel 2181212</p>
-                </div>
-                <div class="punto bordered tr_punto">
-                    <p>El lago/ Oficina<br />
-                    cra 14 # 79 71<br />
-                    tel 2181212</p>
-                </div>
-                <div class="punto bordered tr_punto">
-                    <p>El lago/ Oficina <span>Nuevo</span><br />
-                    cra 14 # 79 71<br />
-                    tel 2181212</p>
-                </div>
-                <div class="punto bordered tr_punto">
-                    <p>El lago/ Oficina <span>Principal</span><br />
-                    cra 14 # 79 71<br />
-                    tel 2181212</p>
-                </div>
+            <div class="punto bordered tr_punto">
+                <p>El lago/ Oficina<br />
+                cra 14 # 79 71<br />
+                tel 2181212</p>
             </div>
-            <div class="col-sm-3">
-                <div class="punto bordered tr_punto">
-                    <p>El lago/ Oficina <span>Principal</span><br />
-                    cra 14 # 79 71<br />
-                    tel 2181212</p>
-                </div>
-                <div class="punto bordered tr_punto">
-                    <p>El lago/ Oficina<br />
-                    cra 14 # 79 71<br />
-                    tel 2181212</p>
-                </div>
-                <div class="punto bordered tr_punto">
-                    <p>El lago/ Oficina<br />
-                    cra 14 # 79 71<br />
-                    tel 2181212</p>
-                </div>
-                <div class="punto bordered tr_punto">
-                    <p>El lago/ Oficina <span>Nuevo</span><br />
-                    cra 14 # 79 71<br />
-                    tel 2181212</p>
-                </div>
-                <div class="punto bordered tr_punto">
-                    <p>El lago/ Oficina <span>Principal</span><br />
-                    cra 14 # 79 71<br />
-                    tel 2181212</p>
-                </div>
+            <div class="punto bordered tr_punto">
+                <p>El lago/ Oficina<br />
+                cra 14 # 79 71<br />
+                tel 2181212</p>
             </div>
-            <div class="col-sm-3">
-                <div class="punto bordered tr_punto">
-                    <p>El lago/ Oficina <span>Principal</span><br />
-                    cra 14 # 79 71<br />
-                    tel 2181212</p>
-                </div>
-                <div class="punto bordered tr_punto">
-                    <p>El lago/ Oficina<br />
-                    cra 14 # 79 71<br />
-                    tel 2181212</p>
-                </div>
-                <div class="punto bordered tr_punto">
-                    <p>El lago/ Oficina<br />
-                    cra 14 # 79 71<br />
-                    tel 2181212</p>
-                </div>
-                <div class="punto bordered tr_punto">
-                    <p>El lago/ Oficina <span>Nuevo</span><br />
-                    cra 14 # 79 71<br />
-                    tel 2181212</p>
-                </div>
-                <div class="punto bordered tr_punto">
-                    <p>El lago/ Oficina <span>Principal</span><br />
-                    cra 14 # 79 71<br />
-                    tel 2181212</p>
-                </div>
+            <div class="punto bordered tr_punto">
+                <p>El lago/ Oficina <span>Nuevo</span><br />
+                cra 14 # 79 71<br />
+                tel 2181212</p>
+            </div>
+            <div class="punto bordered tr_punto">
+                <p>El lago/ Oficina <span>Principal</span><br />
+                cra 14 # 79 71<br />
+                tel 2181212</p>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="punto bordered tr_punto">
+                <p>El lago/ Oficina <span>Principal</span><br />
+                cra 14 # 79 71<br />
+                tel 2181212</p>
+            </div>
+            <div class="punto bordered tr_punto">
+                <p>El lago/ Oficina<br />
+                cra 14 # 79 71<br />
+                tel 2181212</p>
+            </div>
+            <div class="punto bordered tr_punto">
+                <p>El lago/ Oficina<br />
+                cra 14 # 79 71<br />
+                tel 2181212</p>
+            </div>
+            <div class="punto bordered tr_punto">
+                <p>El lago/ Oficina <span>Nuevo</span><br />
+                cra 14 # 79 71<br />
+                tel 2181212</p>
+            </div>
+            <div class="punto bordered tr_punto">
+                <p>El lago/ Oficina <span>Principal</span><br />
+                cra 14 # 79 71<br />
+                tel 2181212</p>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="punto bordered tr_punto">
+                <p>El lago/ Oficina <span>Principal</span><br />
+                cra 14 # 79 71<br />
+                tel 2181212</p>
+            </div>
+            <div class="punto bordered tr_punto">
+                <p>El lago/ Oficina<br />
+                cra 14 # 79 71<br />
+                tel 2181212</p>
+            </div>
+            <div class="punto bordered tr_punto">
+                <p>El lago/ Oficina<br />
+                cra 14 # 79 71<br />
+                tel 2181212</p>
+            </div>
+            <div class="punto bordered tr_punto">
+                <p>El lago/ Oficina <span>Nuevo</span><br />
+                cra 14 # 79 71<br />
+                tel 2181212</p>
+            </div>
+            <div class="punto bordered tr_punto">
+                <p>El lago/ Oficina <span>Principal</span><br />
+                cra 14 # 79 71<br />
+                tel 2181212</p>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="punto bordered tr_punto">
+                <p>El lago/ Oficina <span>Principal</span><br />
+                cra 14 # 79 71<br />
+                tel 2181212</p>
+            </div>
+            <div class="punto bordered tr_punto">
+                <p>El lago/ Oficina<br />
+                cra 14 # 79 71<br />
+                tel 2181212</p>
+            </div>
+            <div class="punto bordered tr_punto">
+                <p>El lago/ Oficina<br />
+                cra 14 # 79 71<br />
+                tel 2181212</p>
+            </div>
+            <div class="punto bordered tr_punto">
+                <p>El lago/ Oficina <span>Nuevo</span><br />
+                cra 14 # 79 71<br />
+                tel 2181212</p>
+            </div>
+            <div class="punto bordered tr_punto">
+                <p>El lago/ Oficina <span>Principal</span><br />
+                cra 14 # 79 71<br />
+                tel 2181212</p>
             </div>
         </div>
     </div>

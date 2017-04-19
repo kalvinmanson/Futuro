@@ -1,4 +1,9 @@
 $(document).ready(function() {
+	$(".fancyb").fancybox();
+	$(".fancyform").fancybox({
+		padding:	0
+	});
+	
 	$(".tr_menuprin").click( function() {
 		$(".menuprin").toggle( "slow", function() {
 		    // Animation complete.

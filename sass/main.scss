@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5 {
 header .logo {
 	display: block;
 	padding: 30px 20px;
-	background-image: url(/img/header-bg.jpg);
+	background-image: url(../img/header-bg.jpg);
 	background-position: right top;
 	background-repeat: no-repeat;
 	@media (max-width: $screen-sm-max) {
@@ -421,12 +421,21 @@ footer ul li a {
 	text-align: center;
 }
 .promo {
-	background-image: url(/img/promo-bg.jpg);
+	background-image: url(../img/promo-bg.jpg);
 	background-position: center top;
 	background-repeat: repeat-x;
 }
 .promo .img-responsive {
 	margin-right: 0;
+}
+.productDown {
+	display: block;
+	padding: 15px;
+	margin-top: -2px;
+}
+.productDown h3 {
+	font-size: 1em;
+	margin: 0;
 }
 .products {
 	padding: 20px 0;
@@ -555,7 +564,7 @@ footer ul li a {
 	padding: 0 5px;
 }
 .badge1 {
-	background-image: url(/img/shop.png);
+	background-image: url(../img/shop.png);
 	background-position: left;
 	background-repeat: repeat-y;
 	padding-left: 25px;
@@ -600,7 +609,8 @@ footer ul li a {
 	color: $color3;
 }
 .productDetail {
-	background-image: url(/img/bgprod.jpg);
+	padding-bottom: 55px;
+	background-image: url(../img/bgprod.jpg);
 	background-position: right bottom;
 	background-repeat: no-repeat;
 }
@@ -717,7 +727,7 @@ footer ul li a {
 	padding: 10px;
 }
 .trianglebg2 {
-	background-image: url(/img/bgprod2.jpg);
+	background-image: url(../img/bgprod2.jpg);
 	background-position: left bottom;
 	background-repeat: no-repeat;
 }
@@ -748,10 +758,10 @@ footer ul li a {
 	color: $color6;
 }
 .inner.innerbg1 {
-	background-image: url(/img/bg-in.jpg);
+	background-image: url(../img/bg-in.jpg);
 }
 .inner.innerbg2 {
-	background-image: url(/img/bg-in2.jpg);
+	background-image: url(../img/bg-in2.jpg);
 }
 .inner {
 	padding: 23% 0 0 23%;
@@ -907,4 +917,33 @@ footer ul li a {
         width: 20%;
         float: left;
     }
+}
+/* / end 5 columns */
+.btn-addCarro {
+	color: $color6;
+	background-color: $color1;
+	@include transition(0.5s);
+}
+.btn-addCarro i {
+	color: $color2;
+	@include transition(0.5s);
+}
+.btn-addCarro:hover {
+	color: $color6;
+	background-color: $color2;
+}
+.btn-addCarro:hover i {
+	color: $color1;
+}
+.formPop {
+	min-width: 450px;
+}
+.formPop.centered {
+	text-align: center;
+}
+.formPop.centered label {
+	color: $color1;
+}
+.formPop h2 {
+	color: $color1;
 }

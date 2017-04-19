@@ -77,7 +77,7 @@
                     <p class="lineDatos"><i class="fa fa-phone"></i> Cel. xxx xxx xxxx <br />Tel. xxx xxx</p>
                     <p class="lineDatos"><i class="fa fa-envelope"></i> ej@info.com</p>
                 </div>
-                <button class="btn btn-primary btn-lg btn-block"><i class="fa fa-comments"></i> Chatea con nosotros</button>
+                <?php /*<button class="btn btn-primary btn-lg btn-block"><i class="fa fa-comments"></i> Chatea con nosotros</button>*/ ?>
             </div>
         </div>
     </div>

@@ -10,15 +10,15 @@
 		<div class="col-sm-5">
 			<div class="row">
 				<div class="col-xs-3 bordered">
-					<img src="/img/pro01.jpg" class="img-responsive">
-					<img src="/img/pro01.jpg" class="img-responsive">
-					<img src="/img/pro01.jpg" class="img-responsive">
+					<img src="assets/img/pro01.jpg" class="img-responsive">
+					<img src="assets/img/pro01.jpg" class="img-responsive">
+					<img src="assets/img/pro01.jpg" class="img-responsive">
 				</div>
 				<div class="col-xs-9 bordered">
 					<div class="discount">
 						<span>Descuento <strong>20%</strong></span>
 					</div>
-					<img src="/img/pro01.jpg" class="img-responsive">
+					<img src="assets/img/pro01.jpg" class="img-responsive">
 				</div>
 			</div>
             <div class="row">
@@ -103,7 +103,7 @@
 	    			<div class="col-xs-3">
 	    				<span class="cantidad">Cantidad</span>
 	    				<input type="number" class="cantidadInput" min="1" value="1">
-                        <a href="/?o=contact">Contactarnos</a>
+                        <a href="?o=contact">Contactarnos</a>
 	    			</div>
 	    			<div class="col-xs-9">
 	    				<span class="antes">Antes $ 152.000</span>
@@ -112,7 +112,7 @@
 	    					<small>Vr. Und.</small>
 	    				</div>
                         <p align="right">
-                            <a href="/?o=rent-form" class="btn btn-primary btn-lg">Reservar</a>
+                            <a href="?o=rent-form" class="btn btn-primary btn-lg">Reservar</a>
                         </p>
 	    			</div>
 	    		</div>
@@ -126,11 +126,11 @@
 <div class="products trianglebg2">
     <div class="row">
         <div class="col-sm-4 col-xs-6">
-            <a href="/?o=product" class="product">
+            <a href="?o=product" class="product">
                 <div class="discount">
                     <span>Descuento <strong>20%</strong></span>
                 </div>
-                <img src="/img/pro01.jpg" class="img-responsive">
+                <img src="assets/img/pro01.jpg" class="img-responsive">
                 <div class="infoRelated">
                     <h3>Cuello Ortopedico Adulto lifting</h3>
                     <div class="datos">
@@ -156,8 +156,8 @@
             </a>
         </div>
         <div class="col-sm-4 col-xs-6">
-            <a href="/?o=product" class="product">
-                <img src="/img/pro01.jpg" class="img-responsive">
+            <a href="?o=product" class="product">
+                <img src="assets/img/pro01.jpg" class="img-responsive">
                 <div class="infoRelated">
                     <h3>Cuello Ortopedico Adulto lifting</h3>
                     <div class="datos">
@@ -183,11 +183,11 @@
             </a>
         </div>
         <div class="col-sm-4 hidden-xs">
-            <a href="/?o=product" class="product">
+            <a href="?o=product" class="product">
                 <div class="discount">
                     <span>Descuento <strong>20%</strong></span>
                 </div>
-                <img src="/img/pro01.jpg" class="img-responsive">
+                <img src="assets/img/pro01.jpg" class="img-responsive">
                 <div class="infoRelated">
                     <h3>Cuello Ortopedico Adulto lifting</h3>
                     <div class="datos">
