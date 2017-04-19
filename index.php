@@ -74,7 +74,7 @@
                   <div class="infotop">
                     <div class="nombre">@NOMBRE</div>
                     <a href="?o=account" class="btn btn-primary badge1">Mi cuenta</a> 
-                    <a href="?o=login" class="btn btn-primary badge1">Iniciar Sesión</a>
+                    <a href="#loginForm" class="fancyb btn btn-primary badge1">Iniciar Sesión</a>
                     <div class="price">
                       <span class="cr1"><img src="assets/img/icons/shop.png"></span>
                       <span class="cr2"><strong>#02</strong></span>
@@ -310,6 +310,80 @@
     <p>Ortopedicos Futuro S.A.S.<br />Derechos reservados W360 2017</p>
   </div>
 </footer>
+
+<!-- loginbox -->
+<div class="formPop centered" id="loginForm" style="display: none;">
+    <h2>Confirmar Usuario</h2>
+    <div class="form-group">
+        <label for="">Usuario</label>
+        <input type="text" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="">Password</label>
+        <input type="text" class="form-control">
+    </div>
+    <p align="center">
+        <a href="" class="btn btn-primary">Entrar</a> 
+        <a href="#registerForm" class="fancyb btn btn-primary">Registro</a>
+    </p>
+</div>
+<div class="formPop" id="registerForm" style="display: none;">
+    <div class="container-fluid">
+        <h2>Registrarse</h2>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label for="">*Nombre</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="">*Cedula</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="">*Celular</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="">*Pais</label>
+                    <select  class="form-control">
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="">*Ciudad</label>
+                    <select  class="form-control">
+                    </select>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label for="">*Apellido</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="">*Teléfono</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="">*Dirección</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="">*Departamento</label>
+                    <select  class="form-control">
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="">*Correo</label>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+        </div>
+        <p align="center">
+            <a href="" class="btn btn-primary">Registrarte</a> 
+        </p>
+    </div>
+</div>
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
